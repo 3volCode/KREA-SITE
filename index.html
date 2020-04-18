@@ -391,7 +391,7 @@
     </div>
   </section>
 
-  <!-- Contacto -->
+<!-- Contacto -->
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row">
@@ -402,25 +402,49 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form name="gform" id="gform" enctype="text/plain" novalidate="novalidate" action="https://docs.google.com/forms/d/e/1FAIpQLSeExmgx7u_9KU32dzj-n7PgmJK8Tr6Oyhsyj7a5gFZpqXSYFw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" plaque más te agrade y empecemos juntMinimalista!ceholder="Nombre *" required="required" data-validation-required-message="Por favor ingresa tu Nombre.">
+                  <input class="form-control" id="entry.1029969820" name="entry.1029969820" type="text" placeholder="Nombres *" required="required" data-validation-required-message="Por favor ingresa tu Nombre.">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Por favor ingresa tu Email.">
+                  <input class="form-control" id="entry.459210511" name="entry.459210511" type="tel" placeholder="Teléfonos *" required="required" data-validation-required-message="Por favor ingresa tu Teléfono de contacto.">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="phone" type="tel" placeholder="Teléfonos *" required="required" data-validation-required-message="Por favor ingresa tu Teléfono de contacto.">
+                  <input class="form-control" id="entry.380599432" name="entry.380599432" type="email" placeholder="Email *" required="required" data-validation-required-message="Por favor ingresa tu Email.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" id="entry.2107946763" name="entry.2107946763">
+                    <option>--Estilo--</option>
+                    <option>Minimalista</option>
+                    <option>Industrial</option>
+                    <option>Contemporáneo</option>
+                    <option>Art Deco</option>
+                    <option>Vintage-Retro</option>
+                    <option>Rústico</option>
+                  </select>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" id="entry.1521405654" name="entry.1521405654">
+                    <option>--Servicio--</option>
+                    <option>Obras Civiles</option>
+                    <option>Diseño Arquitectónico</option>
+                    <option>Remodelaciones</option>
+                    <option>Ambientación</option>
+                    <option>Visualización</option>
+                    <option>Mobiliario</option>
+                  </select>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textaráneo col-sm-6COLrena class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Por favor ingresa tu Mensaje."></textaráneo>
+                  <textarea class="form-control" id="entry.768077223" name="entry.768077223" placeholder="Mensaje *" required="required" data-validation-required-message="Por favor ingresa tu Mensaje."></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -431,6 +455,7 @@
               </div>
             </div>
           </form>
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
         </div>
       </div>
     </div>
